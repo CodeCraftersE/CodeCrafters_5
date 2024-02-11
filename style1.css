@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(chau_1.jpg);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  font-family: sans-serif;
+}
+.form-box{
+  width: 500px;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 12% auto;
+  padding: 50px 0;
+  color: #fff;
+  box-shadow: 0 0 20px 2 px rgba(0, 0, 0, 0.5);
+}
+h1{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.input-box{
+  margin: 31px auto;
+  width: 80%;
+  border-bottom: 1px solid #fff;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.input-box input{
+  width: 90%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+}
+::placeholder{
+  color: #ccc;
+}
+.fa{
+  margin-right: 80px;
+}
+.eye{
+  position: absolute;
+}
+#hide1{
+  display: none;
+}
+.login-btn{
+  margin: 40px auto 20px;
+  width: 80%;
+  display: block;
+  outline: none;
+  padding: 10px 0;
+  border: 1px solid #fff;
+  cursor: pointer;
+  background: transparent;
+  color: #fff;
+  font-size: 16;
+}
+.login-btn:hover{
+  opacity: 0.7;
+}
+.ret{
+  text-align: center;
+}
+a {
+    color: #fff; 
+}

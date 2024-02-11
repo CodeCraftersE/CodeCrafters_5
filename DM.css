@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slide{
+    height: 150vh;
+    width: 100vw;
+}
+
+.slide:nth-child(1){
+    background-color: rgb(246, 170, 94);
+}
+
+.slide:nth-child(2){
+    background-color: rgb(77, 235, 161);
+}
+.slide:nth-child(3){
+    background-color: rgb(244, 136, 208);
+}
+
+
+
+
+.wrapper{
+    display: flex;
+    width: 300vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+
+.container{
+    height: 100vw;
+    width: 100vh;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.onefull{
+    color: white;
+}
+
+.tit1{
+    margin-top: 60px;
+    font-family: 'Protest Revolution', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.para1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tit2{
+    margin-top: 60px;
+    font-family: 'Protest Revolution', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.para2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+.tit3{
+    margin-top: 60px;
+    font-family: 'Protest Revolution', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.para3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
